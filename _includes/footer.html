@@ -1,0 +1,143 @@
+<footer style="font-size: 14px;">
+  <p>
+    <small>
+      Developed by <a href="https://sharadcodes.github.io">Sharad Raj</a>
+    </small>
+    <br />
+    <small>
+      MCA (Data Science) - 1<sup>st</sup> Year
+    </small>
+    <p>-------------------</p>
+    <small>Maintained by Department of MCA</small>
+    <br />
+    <small>Copyright &copy; {{ site.time | date: '%Y' }} {{site.copyright}}<br />All rights reserved</small>
+  </p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+  const particlesJSON = {
+    particles: {
+      number: {
+        value: 40,
+        density: {
+          enable: true,
+          value_area: 500,
+        },
+      },
+      color: {
+        value: "#00ff00",
+      },
+      shape: {
+        type: "polygon",
+        stroke: {
+          width: 2,
+          color: "#00ff00",
+        },
+        polygon: {
+          nb_sides: 6,
+        },
+        image: {
+          src: "img/github.svg",
+          width: 100,
+          height: 100,
+        },
+      },
+      opacity: {
+        value: 0.5,
+        random: true,
+      },
+      size: {
+        value: 10,
+        random: true,
+      },
+      line_linked: {
+        enable: false,
+        distance: 200,
+        color: "#00ff00",
+        opacity: 0.3,
+        width: 2,
+      },
+      move: {
+        enable: true,
+        speed: 5,
+        direction: "bottom",
+        random: true,
+        straight: true,
+        out_mode: "out",
+        bounce: false,
+        attract: {
+          enable: false,
+          rotateX: 600,
+          rotateY: 1200,
+        },
+      },
+    },
+    interactivity: {
+      detect_on: "canvas",
+      events: {
+        onhover: {
+          enable: true,
+          mode: ["grab", "bubble"],
+        },
+        onclick: {
+          enable: true,
+          mode: "push",
+        },
+        resize: true,
+      },
+      modes: {
+        grab: {
+          distance: 300,
+          line_linked: {
+            opacity: 0.7,
+          },
+        },
+        bubble: {
+          distance: 600,
+          size: 12,
+          duration: 1,
+          opacity: 0.2,
+          speed: 2,
+        },
+        repulse: {
+          distance: 400,
+          duration: 0.4,
+        },
+        push: {
+          particles_nb: 0,
+        },
+        remove: {
+          particles_nb: 0,
+        },
+      },
+    },
+    retina_detect: true,
+  };
+
+  particlesJS("particles-js", particlesJSON);
+</script>
+<script>
+  var txt = ["From ", "06<sup>th</sup> ", "to ", "20<sup>th</sup> October", "October"];
+  var speed = 400;
+  var i = 0;
+  var t = null;
+  window.onload = function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("typewriter").innerHTML += txt[i];
+      i++;
+      t = setTimeout(typeWriter, speed);
+      if (i === txt.length) {
+        // console.log("OK");
+        document.getElementById("typewriter").innerHTML = "";
+        clearInterval(t);
+        i = 0;
+        typeWriter();
+      } else {
+        // console.log("NOK");
+      }
+    }
+  };
+</script>
+<script src="{{site.baseurl}}/assets/js/lbox.js" defer></script>
