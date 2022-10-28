@@ -1,0 +1,167 @@
+events:
+  - event_name: "Day 1: Inauguration of Cyber Security Awareness Week"
+    event_images:
+      - title: Day 1 - Oct 6, 2022
+        url: day1-1.webp
+      - title: Day 1 - Oct 6, 2022
+        url: day1-2.webp
+      - title: Day 1 - Oct 6, 2022
+        url: day1-3.webp
+      - title: Day 1 - Oct 6, 2022
+        url: day1-4.webp
+      - title: Day 1 - Oct 6, 2022
+        url: day1-5.webp
+  - event_name: "Day 2: Poster Making Competition"
+    event_images:
+      - title: Day 2 - Oct 7, 2022
+        url: day2-1.webp
+      - title: Day 2 - Oct 7, 2022
+        url: day2-2.webp
+      - title: Day 2 - Oct 7, 2022
+        url: day2-3.webp
+      - title: Day 2 - Oct 7, 2022
+        url: day2-4.webp
+      - title: Day 2 - Oct 7, 2022
+        url: day2-5.webp
+      - title: Day 2 - Oct 7, 2022
+        url: day2-6.webp
+      - title: Day 2 - Oct 7, 2022
+        url: day2-7.webp
+      - title: Day 2 - Oct 7, 2022
+        url: day2-8.webp
+      - title: Day 2 - Oct 7, 2022
+        url: day2-9.webp
+      - title: Day 2 - Oct 7, 2022
+        url: day2-10.webp
+      - title: Day 2 - Oct 7, 2022
+        url: day2-11.webp
+      - title: Day 2 - Oct 7, 2022
+        url: day2-12.webp
+      - title: Day 2 - Oct 7, 2022
+        url: day2-13.webp
+  - event_name: "Day 3: Slogan/Quotes Competition"
+    event_images:
+      - title: Day 3 - Oct 8, 2022
+        url: day3-1.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-2.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-3.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-4.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-5.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-6.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-7.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-8.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-9.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-10.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-11.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-12.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-13.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-14.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-15.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-16.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-17.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-18.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-19.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-20.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-21.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-22.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-23.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-24.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-25.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-26.webp
+      - title: Day 3 - Oct 8 , 2022
+        url: day3-27.webp
+  - event_name: "Day 5: Fish Bowl Competition"
+    event_images:
+      - title: Day 5 - Oct 14, 2022
+        url: day5-1.webp
+      - title: Day 5 - Oct 14 , 2022
+        url: day5-2.webp
+      - title: Day 5 - Oct 14 , 2022
+        url: day5-3.webp
+      - title: Day 5 - Oct 14 , 2022
+        url: day5-4.webp
+      - title: Day 5 - Oct 14 , 2022
+        url: day5-5.webp
+      - title: Day 5 - Oct 14 , 2022
+        url: day5-6.webp
+      - title: Day 5 - Oct 14 , 2022
+        url: day5-7.webp
+      - title: Day 5 - Oct 14 , 2022
+        url: day5-8.webp
+      - title: Day 5 - Oct 14 , 2022
+        url: day5-9.webp
+      - title: Day 5 - Oct 14 , 2022
+        url: day5-10.webp
+      - title: Day 5 - Oct 14 , 2022
+        url: day5-11.webp
+      - title: Day 5 - Oct 14 , 2022
+        url: day5-12.webp
+      - title: Day 5 - Oct 14 , 2022
+        url: day5-13.webp
+      - title: Day 5 - Oct 14 , 2022
+        url: day5-14.webp
+  - event_name: "Day 6: Jumbled Words/Missing Words"
+    event_images:
+      - title: Day 6 - Oct 15, 2022
+        url: day6-0.webp
+      - title: Day 6 - Oct 15, 2022
+        url: day6-1.webp
+      - title: Day 6 - Oct 15 , 2022
+        url: day6-2.webp
+      - title: Day 6 - Oct 15 , 2022
+        url: day6-3.webp
+      - title: Day 6 - Oct 15 , 2022
+        url: day6-4.webp
+      - title: Day 5 - Oct 15 , 2022
+        url: day6-5.webp
+      - title: Day 6 - Oct 15 , 2022
+        url: day6-6.webp
+      - title: Day 6 - Oct 15 , 2022
+        url: day6-7.webp
+      - title: Day 6 - Oct 15 , 2022
+        url: day6-8.webp
+      - title: Day 6 - Oct 15 , 2022
+        url: day6-9.webp
+      - title: Day 6 - Oct 15 , 2022
+        url: day6-10.webp
+      - title: Day 6 - Oct 15 , 2022
+        url: day6-11.webp
+      - title: Day 6 - Oct 15 , 2022
+        url: day6-12.webp
+      - title: Day 6 - Oct 15 , 2022
+        url: day6-13.webp
+      - title: Day 6 - Oct 15 , 2022
+        url: day6-14.webp
+      - title: Day 6 - Oct 15 , 2022
+        url: day6-15.webp
+      - title: Day 6 - Oct 15 , 2022
+        url: day6-16.webp
+      - title: Day 6 - Oct 15 , 2022
+        url: day6-17.webp
+      - title: Day 6 - Oct 15 , 2022
+        url: day6-18.webp
