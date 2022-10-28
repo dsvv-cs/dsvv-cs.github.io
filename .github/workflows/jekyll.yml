@@ -34,7 +34,7 @@ jobs:
           source: ./
           destination: ./_site
       - name: Generate webp
-        run: python web_conv.py
+        run: python3 web_conv.py
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
