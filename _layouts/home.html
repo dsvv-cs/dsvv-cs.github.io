@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <div id="particles-js"></div>
+    <div class="hero">
+      <div id="timer">
+        <h1>{{site.event_title}}</h1>
+        <h6 id="typewriter"></h6>
+      </div>
+      <p style="color: #00ff00">{{ page.hero_section.title }}</p>
+      <a class="btn" href="#events" style="z-index: 300">{{ page.hero_section.button_title }}</a>
+    </div>
+    <div class="section-wrapper" id="events">
+      <h3 class="section-title">{{page.events_section.title}}</h3>
+      <div class="section-body">
+        {{content}}
+        <div
+          class="swiffy-slider slider-item-nogap slider-nav-caretfill slider-nav-autoplay slider-nav-autopause slider-nav-animation slider-nav-animation-zoomout"
+          data-slider-nav-autoplay-interval="1200"
+        >
+          <ul class="slider-container">
+            {% for image in page.events_section.schedule_images %}
+            <li>
+              <img src="{{site.baseurl}}/assets/img/{{ image }}" alt="Schedule" />
+            </li>
+            {% endfor %}
+          </ul>
+          <p style="text-align: center">Swipe schedule image on mobile devices to view more</p>
+
+          <button type="button" class="slider-nav"></button>
+          <button type="button" class="slider-nav slider-nav-next"></button>
+
+          <div class="slider-indicators">
+            <button class="active"></button>
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-wrapper" id="poster">
+      <h3 class="section-title">{{page.poster_section.title}}</h3>
+      <div class="section-body">
+        <img src="{{site.baseurl}}/assets/img/{{page.poster_section.poster_url}}" alt="" />
+      </div>
+    </div>
+    <div class="section-wrapper" id="gallery">
+      <h3 class="section-title">{{page.gallery_section.title}}</h3>
+      <div class="section-body"></div>
+      {% for i in site.data.gallery.events %}
+      <h3 class="gallery-event-title">{{i.event_name}}</h5>
+      <div class="gallery-images">
+        {% for j in i.event_images %}
+        <div
+          class="gallery-image"
+          title="{{i.title}}"
+          style="background-image: url({{site.baseurl}}/assets/gallery/webp/thumbnails/{{j.url}});"
+          data-img-src="{{site.baseurl}}/assets/gallery/webp/{{j.url}}"
+        >
+          <div class="gallery-image-caption">
+            <p>{{j.title}}</p>
+          </div>
+        </div>
+        {% endfor %}
+        <!--  -->
+      </div>
+      {% endfor %}
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
