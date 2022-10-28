@@ -1,0 +1,11 @@
+title: Department of Computer Science
+subtitle: Dev Sanskriti Vishwavidyalaya
+site.copyright: ""
+event_title: Cyber Security Awarness Month
+permalink: pretty
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
